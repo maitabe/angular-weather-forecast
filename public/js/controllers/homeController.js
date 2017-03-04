@@ -1,5 +1,6 @@
 app.controller('homeCtrl', ['$scope', 'cityService',  function($scope, cityService) {
 
+	console.log('homeCtrl');
 	//link the service to controller
 	$scope.city = cityService.city;
 

@@ -1,8 +1,9 @@
-app.controller('forecastCtrl', ['$scope', '$http', '$routeParams', 'cityService', function($scope, $http, $routeParams, cityService) {
+app.controller('forecastCtrl', ['$scope', '$http', 'cityService', function($scope, $http, cityService) {
 
+	console.log('forecastCtrl');
 	$scope.city = cityService.city;
 
-	$scope.days = $routeParams.days || 5;
+	// $scope.days = $routeParams.days || 5;
 
 	$scope.weatherResult = '';
 
