@@ -1,0 +1,11 @@
+ input.ng-valid {
+    background-color: #78FA89; /*type of green*/
+  }
+
+  input.ng-dirty {
+    background-color: #b62421; /*type of red*/
+  }
+
+  input.ng-dirty.ng-valid{
+  background-color: #78FA89;
+}
